@@ -1,0 +1,47 @@
+audio:
+- changed-files:
+  - any-glob-to-any-file: 'src/Trijinx.Audio*/**'
+
+cpu:
+- changed-files:
+  - any-glob-to-any-file: ['src/ARMeilleure/**', 'src/Trijinx.Cpu/**', 'src/Trijinx.Memory/**']
+
+gpu:
+- changed-files:
+  - any-glob-to-any-file: ['src/Trijinx.Graphics.*/**', 'src/Spv.Generator/**', 'src/Trijinx.ShaderTools/**']
+
+'graphics-backend:opengl':
+- changed-files:
+  - any-glob-to-any-file: 'src/Trijinx.Graphics.OpenGL/**'
+
+'graphics-backend:vulkan':
+- changed-files:
+  - any-glob-to-any-file: ['src/Trijinx.Graphics.Vulkan/**', 'src/Spv.Generator/**']
+
+'graphics-backend:metal':
+  - changed-files:
+      - any-glob-to-any-file: ['src/Trijinx.Graphics.Metal/**', 'src/Trijinx.Graphics.Metal.SharpMetalExtensions/**']
+
+gui:
+- changed-files:
+  - any-glob-to-any-file: ['src/Trijinx/**', 'src/Trijinx.UI.Common/**', 'src/Trijinx.UI.LocaleGenerator/**']
+
+horizon:
+- changed-files:
+  - any-glob-to-any-file: ['src/Trijinx.HLE/**', 'src/Trijinx.Horizon/**']
+
+kernel:
+- changed-files:
+  - any-glob-to-any-file: 'src/Trijinx.HLE/HOS/Kernel/**'
+
+infra:
+- changed-files:
+  - any-glob-to-any-file: ['.github/**', 'distribution/**', 'Directory.Packages.props', 'src/Trijinx.BuildValidationTasks/**']
+
+documentation:
+- changed-files:
+  - any-glob-to-any-file: 'docs/**'
+
+ldn:
+- changed-files:
+  - any-glob-to-any-file: 'src/Trijinx.HLE/HOS/Services/Ldn/**'

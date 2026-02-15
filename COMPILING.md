@@ -1,0 +1,23 @@
+## Compilation
+
+Building the project is for users that want to contribute code only.
+If you wish to build the emulator yourself, follow these steps:
+
+### Step 1
+
+Install the [.NET 10.0 (or higher) SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0).
+Make sure your SDK version is higher or equal to the required version specified in [global.json](global.json).
+
+### Step 2
+
+Either use `git clone https://git.trijinx.app/trijinx/trijinx.git` on the command line to clone the repository or use Code --> Download zip button to get the files.
+
+### Step 3
+
+To build Trijinx, open a command prompt inside the project directory.
+You can quickly access it on Windows by holding shift in File Explorer, then right clicking and selecting `Open command window here`.
+Then type the following command: `dotnet build -c Release -o build`
+the built files will be found in the newly created build directory.
+
+Trijinx system files are stored in the `Trijinx` folder.
+This folder is located in the user folder, which can be accessed by clicking `Open Trijinx Folder` under the File menu in the GUI.

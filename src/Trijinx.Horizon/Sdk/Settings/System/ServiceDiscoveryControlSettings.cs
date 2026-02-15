@@ -1,0 +1,10 @@
+using System;
+
+namespace Trijinx.Horizon.Sdk.Settings.System
+{
+    [Flags]
+    enum ServiceDiscoveryControlSettings : uint
+    {
+        IsChangeEnvironmentIdentifierDisabled = 1 << 0,
+    }
+}

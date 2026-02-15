@@ -1,0 +1,8 @@
+namespace Trijinx.HLE.HOS.Services.Nfc.NfcManager
+{
+    enum State
+    {
+        NonInitialized,
+        Initialized,
+    }
+}

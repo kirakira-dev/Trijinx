@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefaultItemExcludes>$(DefaultItemExcludes);._*</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trijinx.Common\Trijinx.Common.csproj" />
+    <ProjectReference Include="..\Trijinx.Graphics.Device\Trijinx.Graphics.Device.csproj" />
+    <ProjectReference Include="..\Trijinx.Graphics.Texture\Trijinx.Graphics.Texture.csproj" />
+  </ItemGroup>
+
+</Project>

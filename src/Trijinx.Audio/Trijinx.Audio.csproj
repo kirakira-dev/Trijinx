@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DefaultItemExcludes>$(DefaultItemExcludes);._*</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trijinx.Common\Trijinx.Common.csproj" />
+    <ProjectReference Include="..\Trijinx.Cpu\Trijinx.Cpu.csproj" />
+    <ProjectReference Include="..\Trijinx.Memory\Trijinx.Memory.csproj" />
+  </ItemGroup>
+
+</Project>

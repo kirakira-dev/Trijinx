@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <DefaultItemExcludes>$(DefaultItemExcludes);._*</DefaultItemExcludes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenTK.Audio.OpenAL" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trijinx.Audio\Trijinx.Audio.csproj" />
+  </ItemGroup>
+
+</Project>
